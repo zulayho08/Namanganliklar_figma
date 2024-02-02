@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xolboyeva Zulayho" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- CSS BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Namanganliklar</title>
+  </head>
+  <body>
+    <header
+      style="background-color: rgba(246, 246, 249, 1)"
+      class="header container"
+    >
+      <img
+        src="./images/hr.png"
+        width="1480"
+        height="4"
+        alt="hr"
+        class="header__hr--img"
+      />
+      <div class="header__top">
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          width="320"
+          height="40"
+          class="header__logo"
+        />
+        <ul class="header__list">
+          <li class="header__item">
+            <span class="header__span">$</span> 10137.2
+          </li>
+          <li class="header__item">
+            <span class="header__span">P</span> 138.26
+          </li>
+          <li class="header__item">
+            <span class="header__span">E</span> 10988.72
+          </li>
+        </ul>
+
+        <!-- Modal Button -->
+
+        <button
+          style="
+            background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+            border: 2px solid #1e96c8;
+          "
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          <img
+            src="./images/tg.svg"
+            alt="img"
+            width="20"
+            height="20"
+            class="header__btn--img"
+          />
+          Подписатся
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModalCenter"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="border-bottom: none; padding: 0" class="modal-header">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modal__text">
+                Подписывайтесь на наш канал в Telegram и будьте всегда в курсе
+                самых последних новостей:
+              </div>
+              <div
+                style="border-top: none; justify-content: center"
+                class="modal-footer"
+              >
+                <a
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #1e96c8 15.07%,
+                      #37aee2 85.96%
+                    );
+                    border: 2px solid #1e96c8;
+                  "
+                  class="btn btn-secondary"
+                  href="https://t.me/odilbeksafarov_blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/tg.svg"
+                    alt="img"
+                    width="20"
+                    height="20"
+                    class="header__btn--img"
+                  />Подписатся</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of Modal -->
+      </div>
+      <!-- end of header__top -->
+
+      <div class="header__items">
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./index.html"
+            rel="noopener noreferrer"
+            >Узбекистана</a
+          >
+        </div>
+        <!-- 2 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./list.html"
+            rel="noopener noreferrer"
+            >Мир</a
+          >
+        </div>
+        <!-- 3 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./article.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Экономика</a
+          >
+        </div>
+        <!-- 4 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./contact.html"
+            rel="noopener noreferrer"
+            >Политика</a
+          >
+        </div>
+        <!-- 5 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Общество</a
+          >
+        </div>
+        <!-- 6 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Технологии</a
+          >
+        </div>
+        <!-- 7 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Спорт</a
+          >
+        </div>
+        <!-- 8 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Культура</a
+          >
+        </div>
+        <!-- 9 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Происшествия</a
+          >
+        </div>
+        <!-- 10 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Туризм</a
+          >
+        </div>
+        <!--  -->
+      </div>
+
+      <!-- end of header__items -->
+
+      <div class="header__bottom">
+        <img
+          width="1200"
+          height="99"
+          src="./images/header__bottom.png"
+          alt="img"
+          class="header__bottom--img"
+        />
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <div class="container">
+      <div class="aside">
+        <div class="aside__left">
+          <h2 class="aside__head">Напишите нам</h2>
+          <input class="input" type="text" placeholder="Имя" /> <br />
+          <input
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Электронная почта"
+          />
+          <br />
+          <input
+            class="input"
+            type="number"
+            name="number"
+            id="number"
+            placeholder="Номер телефона"
+          />
+          <br />
+          <input class="input" type="text" placeholder="Тема" /> <br />
+          <textarea
+            class="textarea"
+            name="text"
+            id="text"
+            placeholder="Текст"
+          ></textarea>
+          <input
+            class="input2"
+            type="text"
+            name=""
+            id=""
+            placeholder="Прикрепить файл"
+          />
+          <input class="pic" type="image" src="./images/voice.svg" alt="img" />
+          <br />
+          <input
+            class="input2"
+            type="password"
+            name=""
+            id=""
+            placeholder="Код"
+          />
+          <span class="span">4 k 7 Z a</span>
+          <br />
+          <button class="aside__btn" type="submit">Отправить</button>
+        </div>
+        <div class="aside__right">
+          <h3 class="aside__right--head">NAMANGANLIKLAR24</h3>
+          <ul class="aside__list">
+            <li class="aside__item">
+              <span class="aside__span">Электронная почта</span>
+              <span class="aside--span">info@namanganliklar24.uz</span>
+            </li>
+            <li class="aside__item">
+              <span class="aside__span">Социальные сети</span>
+              <span style="margin-top: -5px" class="aside--span">
+                <input type="image" src="./images/facebook.svg" alt="img" />
+                <input type="image" src="./images/twitter.svg" alt="img" />
+                <input type="image" src="./images/odnoklasnik.svg" alt="img" />
+              </span>
+            </li>
+            <li class="aside__item">
+              <span class="aside__span">Телеграм канал</span>
+              <span style="margin-top: -7px" class="aside--span">
+                <button
+                  style="
+                    background: rgba(41, 80, 145, 1);
+                    border: 2px solid rgba(41, 80, 145, 1);
+                  "
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#exampleModalCenter"
+                >
+                  <img
+                    src="./images/tg.svg"
+                    alt="img"
+                    width="20"
+                    height="20"
+                    class="header__btn--img"
+                  />
+                  Подписатся
+                </button>
+              </span>
+            </li>
+            <li class="aside__item">
+              <span class="aside__span">Мобильная приложение</span>
+              <span style="margin-top: -5px" class="aside--span">
+                <input type="image" src="./images/googlePlay.svg" alt="img" />
+                <input type="image" src="./images/appleStore.svg" alt="img" />
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- end of hero -->
+    </div>
+
+    <!-- end of container -->
+
+    <footer class="footer container">
+      <div class="footer__wrapp">
+        <div class="footer__top">
+          <div width="194" height="38" class="footer__logo">
+            NAMANGANLIKLAR24
+          </div>
+          <p class="footer__top--text">
+            Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых
+            последних новостей:
+          </p>
+          <button
+            style="
+              border: none;
+              color: rgba(41, 80, 147, 1);
+              background-color: #fff;
+            "
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            <img
+              src="./images/tgFooter.svg"
+              alt="img"
+              width="20"
+              height="20"
+              class="header__btn--img"
+            />
+            Подписатся
+          </button>
+        </div>
+
+        <!-- end of footer__top -->
+
+        <hr class="footer__hr" />
+
+        <div class="footer__bottom">
+          <div class="footer__pending">
+            <h5 class="footer__pending--head">О сайте</h5>
+            <p class="footer__pending--text">
+              Воспроизводство, копирование, тиражирование, распростране ние и
+              иное использование информации с сайта «NAMANGANLIKLAR24.UZ»
+              возможно только с предварительного письменного разрешения
+              редакции.
+            </p>
+          </div>
+          <div class="footer__wrapper">
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Информация о сайте</a
+            >
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Напишите нам</a
+            >
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Реклама
+            </a>
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Прислать новость</a
+            >
+            <br />
+          </div>
+          <div class="footer__content">
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Использование материалов
+            </a>
+            <br />
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Темы дня</a
+            >
+            <br />
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Наша команда
+            </a>
+            <br />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end of footer -->
+
+    <!-- JS -->
+
+    <!-- offline -->
+    <script src="./js/information.js"></script>
+    <script src="./script.js"></script>
+
+    <!-- online -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

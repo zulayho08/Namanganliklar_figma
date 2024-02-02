@@ -1,0 +1,42 @@
+.pending {
+  margin: 0 auto;
+  width: 1200px;
+  background-color: rgba(246, 246, 249, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__img {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+
+  &__wrapp {
+    display: block;
+    margin-top: 50px;
+    margin-left: -35px;
+  }
+
+  &__head {
+    width: 526px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(41, 80, 147, 1);
+  }
+
+  &__text {
+    width: 515px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(51, 51, 51, 1);
+  }
+}

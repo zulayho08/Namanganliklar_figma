@@ -1,0 +1,105 @@
+@import "../colors/colors";
+
+.header {
+  &__hr--img {
+    margin: 0;
+    padding: 0;
+    margin-left: -15px;
+    margin-top: -20px;
+    background-color: #fff !important;
+  }
+
+  &__top {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+  }
+
+  .modal__text {
+    width: 478px;
+    font-family: Rubik;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(41, 80, 147, 1);
+  }
+
+  &__list {
+    width: 258px;
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    transform: translateX(-230px);
+  }
+
+  &__item {
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__span {
+    color: $darkBlue;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__btn--img {
+    margin-right: 5px;
+  }
+
+  // items
+
+  &__items {
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 5px 0px rgba(159, 159, 159, 0.19);
+  }
+
+  &__items--link {
+    text-decoration: none;
+    font-family: "Rubik";
+    font-size: 19px;
+    font-weight: 500;
+    font-weight: bold;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(81, 81, 81, 1);
+  }
+
+  &__items--link:hover {
+    text-decoration: none;
+    color: rgba(41, 80, 145, 1);
+  }
+
+  &__bottom {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 1200px;
+    height: 99px;
+    top: 210px;
+    left: 119px;
+    border: 1px;
+    padding-bottom: 125px;
+  }
+}

@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Xolboyeva Zulayho" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- CSS BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Namanganliklar</title>
+  </head>
+  <body>
+    <header
+      style="background-color: rgba(246, 246, 249, 1)"
+      class="header container"
+    >
+      <img
+        src="./images/hr.png"
+        width="1480"
+        height="4"
+        alt="hr"
+        class="header__hr--img"
+      />
+      <div class="header__top">
+        <img
+          src="./images/logo.svg"
+          alt="logo"
+          width="320"
+          height="40"
+          class="header__logo"
+        />
+        <ul class="header__list">
+          <li class="header__item">
+            <span class="header__span">$</span> 10137.2
+          </li>
+          <li class="header__item">
+            <span class="header__span">P</span> 138.26
+          </li>
+          <li class="header__item">
+            <span class="header__span">E</span> 10988.72
+          </li>
+        </ul>
+
+        <!-- Modal Button -->
+
+        <button
+          style="
+            background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+            border: 2px solid #1e96c8;
+          "
+          type="button"
+          class="btn btn-primary"
+          data-toggle="modal"
+          data-target="#exampleModalCenter"
+        >
+          <img
+            src="./images/tg.svg"
+            alt="img"
+            width="20"
+            height="20"
+            class="header__btn--img"
+          />
+          Подписатся
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModalCenter"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalCenterTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div style="border-bottom: none; padding: 0" class="modal-header">
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body modal__text">
+                Подписывайтесь на наш канал в Telegram и будьте всегда в курсе
+                самых последних новостей:
+              </div>
+              <div
+                style="border-top: none; justify-content: center"
+                class="modal-footer"
+              >
+                <a
+                  style="
+                    background: linear-gradient(
+                      90deg,
+                      #1e96c8 15.07%,
+                      #37aee2 85.96%
+                    );
+                    border: 2px solid #1e96c8;
+                  "
+                  class="btn btn-secondary"
+                  href="https://t.me/odilbeksafarov_blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/tg.svg"
+                    alt="img"
+                    width="20"
+                    height="20"
+                    class="header__btn--img"
+                  />Подписатся</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of Modal -->
+      </div>
+      <!-- end of header__top -->
+
+      <div class="header__items">
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./index.html"
+            rel="noopener noreferrer"
+            >Узбекистана</a
+          >
+        </div>
+        <!-- 2 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./list.html"
+            rel="noopener noreferrer"
+            >Мир</a
+          >
+        </div>
+        <!-- 3 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./article.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Экономика</a
+          >
+        </div>
+        <!-- 4 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="./contact.html"
+            rel="noopener noreferrer"
+            >Политика</a
+          >
+        </div>
+        <!-- 5 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Общество</a
+          >
+        </div>
+        <!-- 6 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Технологии</a
+          >
+        </div>
+        <!-- 7 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Спорт</a
+          >
+        </div>
+        <!-- 8 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Культура</a
+          >
+        </div>
+        <!-- 9 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Происшествия</a
+          >
+        </div>
+        <!-- 10 -->
+        <div class="header__items--item">
+          <a
+            class="header__items--link"
+            href="http://"
+            rel="noopener noreferrer"
+            >Туризм</a
+          >
+        </div>
+        <!--  -->
+      </div>
+
+      <!-- end of header__items -->
+
+      <div class="header__bottom">
+        <img
+          width="1200"
+          height="99"
+          src="./images/header__bottom.png"
+          alt="img"
+          class="header__bottom--img"
+        />
+      </div>
+    </header>
+
+    <!-- end of header -->
+
+    <div class="container">
+      <div class="hero">
+        <div class="hero__list">
+          <div class="hero__item">
+            <img
+              src="./images/hero1.svg"
+              width="43"
+              height="45"
+              alt="img"
+              class="hero__item--img"
+            />
+            <h2 style="width: 234px" class="hero__item--head">
+              Коронавирус COVID-19 в Узбекистане
+            </h2>
+          </div>
+          <!-- 2 -->
+          <hr class="hero__hr" />
+          <div class="hero__item">
+            <img
+              src="./images/hero2.svg"
+              width="38"
+              height="40"
+              alt="img"
+              class="hero__item--img"
+            />
+            <h2 class="hero__item--head">
+              <span style="color: rgba(219, 0, 0, 1)">Инфицированы</span>
+              2753
+            </h2>
+          </div>
+          <!-- 3 -->
+
+          <hr class="hero__hr2" />
+          <div class="hero__item">
+            <img
+              src="./images/hero3.svg"
+              alt="img"
+              width="38"
+              height="40"
+              class="hero__item--img"
+            />
+            <h2 class="hero__item--head">
+              <span style="color: rgba(5, 177, 53, 1)">Выздоровели</span>
+              2245
+            </h2>
+          </div>
+          <!-- 4 -->
+          <hr class="hero__hr3" />
+          <div class="hero__item">
+            <img
+              src="./images/hero4.svg"
+              alt="img"
+              width="38"
+              height="39"
+              class="hero__item--img"
+            />
+            <h2 class="hero__item--head">Умерли 12</h2>
+          </div>
+        </div>
+      </div>
+
+      <!-- end of hero -->
+
+      <div class="content">
+        <div class="content__list">
+          <div class="content__item">
+            <img
+              src="./images/content.png"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">
+              Мирзиёев рассказал, зачем было построено Сардобинское
+              водохранилище
+            </h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+
+          <!-- 2 -->
+          <div class="content__item">
+            <img
+              src="./images/karantin.jpg"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">
+              Карантин в Узбекистане продлен до 1 июня
+            </h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+
+          <!-- 3 -->
+
+          <div class="content__item">
+            <img
+              src="./images/sardoba.png"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">
+              Обмелевшая Сардоба: стихия или человеческий фактор?
+            </h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+
+          <!-- 4 -->
+
+          <div class="content__item">
+            <img
+              src="./images/prokuror.png"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">
+              Следствие проверяет четыре версии прорыва Сардобинской плотины
+            </h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+
+          <!-- 5 -->
+
+          <div class="content__item">
+            <img
+              src="./images/tez-yordam.png"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">
+              Выявлено еще 7 случаев коронавируса
+            </h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+
+          <!-- 6 -->
+
+          <div class="content__item">
+            <img
+              src="./images/content6.png"
+              alt="img"
+              width="386"
+              height="190"
+              class="content__item--img"
+            />
+            <h2 class="content__item--head">Итоги второго месяца карантина</h2>
+            <input
+              class="content__item--input"
+              type="datetime"
+              placeholder="05:28 / 16.05.2020"
+              disabled
+            />
+          </div>
+          <!-- 6 end -->
+        </div>
+      </div>
+
+      <!-- end of content -->
+
+      <!-- alert -->
+
+      <div
+        style="
+          margin: 0 auto;
+          margin-top: 20px;
+          padding: 30px;
+          width: 1200px;
+          color: black;
+          font-family: Rubik;
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 24px;
+          letter-spacing: 0em;
+          text-align: left;
+        "
+        class="alert alert-warning"
+        role="alert"
+      >
+        <img
+          style="margin-right: 5px"
+          src="./images/calls.svg"
+          alt="img"
+          width="31"
+          height="35"
+        />
+        Хотите узнать новости первыми? подключите уведомления!
+
+        <a
+          class="alert__button"
+          href="https://t.me/odilbeksafarov_blog"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Включит уведомления!
+        </a>
+      </div>
+
+      <!-- end of alert -->
+
+      <div class="wrapp">
+        <div id="wrappLeft" class="wrapp__left">
+          <h3 class="wrapp__left--head">Последние новости</h3>
+          <div id="wrappList" class="wrapp__left--list">
+            <div id="wrappItem" class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 style="width: 434px" class="wrapp__left--heading">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h4>
+                <p class="wrapp__left--text">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left2.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 class="wrapp__left--heading">
+                  Мирзиёев: «Нам следовало бы принять некоторые правила
+                  карантина как часть повседневной жизни»
+                </h4>
+                <p class="wrapp__left--text">
+                  Президент Узбекистана заявил, что после того, как угроза
+                  коронавируса исчезнет, в стране следовало бы принять некоторые
+                  правила периода карантина как часть своей повседневной жизни.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left3.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 style="width: 434px" class="wrapp__left--heading">
+                  В Ташкенте планируют ввести новую систему электронных
+                  проездных билетов
+                </h4>
+                <p class="wrapp__left--text">
+                  Целью этих изменений является максимально возможное сокращение
+                  количества других маршрутов на улицах, где проходят основные
+                  маршруты.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 style="width: 434px" class="wrapp__left--heading">
+                  По факту прорыва Сардобинского водохранилища возбуждено
+                  уголовное дело
+                </h4>
+                <p style="width: 489px" class="wrapp__left--text">
+                  После прорыва дамбы Сардобинского водохранилища возбуждено
+                  уголовное дело, сообщили в пресс-службе Генпрокуратуры
+                  Узбекистана.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+
+            <!-- 5 -->
+
+            <div class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left2.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 class="wrapp__left--heading">
+                  Мирзиёев: «Нам следовало бы принять некоторые правила
+                  карантина как часть повседневной жизни»
+                </h4>
+                <p class="wrapp__left--text">
+                  Президент Узбекистана заявил, что после того, как угроза
+                  коронавируса исчезнет, в стране следовало бы принять некоторые
+                  правила периода карантина как часть своей повседневной жизни.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+
+            <!-- 6 -->
+
+            <div class="wrapp__left--item">
+              <img
+                src="./images/wrapp__left3.png"
+                alt="img"
+                width="252"
+                height="143"
+                class="wrapp__left--img"
+              />
+              <div class="wrapp__left--right">
+                <h4 style="width: 434px" class="wrapp__left--heading">
+                  В Ташкенте планируют ввести новую систему электронных
+                  проездных билетов
+                </h4>
+                <p class="wrapp__left--text">
+                  Целью этих изменений является максимально возможное сокращение
+                  количества других маршрутов на улицах, где проходят основные
+                  маршруты.
+                </p>
+                <input
+                  id="data"
+                  style="
+                    margin-top: -10px;
+                    border: none;
+                    flex-direction: row-reverse;
+                  "
+                  type="datetime-local"
+                />
+              </div>
+            </div>
+          </div>
+          <button class="add" id="add">Больше новостей</button>
+        </div>
+        <!-- end of wrapp__left -->
+
+        <div class="wrapp__right">
+          <div class="wrapp__right--list">
+            <div class="wrapp__right--item">
+              <h5 class="wrapp__right--head">Cамые популярные новости</h5>
+              <p class="wrapp__right--text">
+                По факту прорыва Сардобинского водохранилища <br />
+                возбуждено уголовное дело
+              </p>
+              <input
+                class="wrapp__item--input"
+                type="datetime"
+                placeholder="11:31 / 15.05.2020"
+                disabled
+              />
+              <hr class="wrapp__right--hr" />
+            </div>
+
+            <!-- 2 -->
+
+            <div class="wrapp__right--item">
+              <p class="wrapp__right--text">
+                По факту прорыва Сардобинского водохранилища <br />
+                возбуждено уголовное дело
+              </p>
+              <input
+                class="wrapp__item--input"
+                type="datetime"
+                placeholder="11:31 / 15.05.2020"
+                disabled
+              />
+              <hr class="wrapp__right--hr" />
+            </div>
+
+            <!-- 3 -->
+
+            <div class="wrapp__right--item">
+              <p class="wrapp__right--text">
+                По факту прорыва Сардобинского водохранилища <br />
+                возбуждено уголовное дело
+              </p>
+              <input
+                class="wrapp__item--input"
+                type="datetime"
+                placeholder="11:31 / 15.05.2020"
+                disabled
+              />
+              <hr class="wrapp__right--hr" />
+            </div>
+
+            <!-- 4 -->
+
+            <div class="wrapp__right--item">
+              <p class="wrapp__right--text">
+                По факту прорыва Сардобинского водохранилища <br />
+                возбуждено уголовное дело
+              </p>
+              <input
+                style="margin-bottom: 20px"
+                class="wrapp__item--input"
+                type="datetime"
+                placeholder="11:31 / 15.05.2020"
+                disabled
+              />
+            </div>
+            <!-- end 4  -->
+          </div>
+          <img
+            style="margin-top: 20px"
+            src="./images/ucell.png"
+            alt="img"
+            width="386"
+            height="477"
+            class="wrapp__right--img"
+          />
+        </div>
+      </div>
+
+      <!-- end of wrapp -->
+
+      <div class="pending">
+        <img
+          src="./images/pending.png"
+          alt="img"
+          width="236"
+          height="177"
+          class="pending__img"
+        />
+        <div class="pending__wrapp">
+          <h5 class="pending__head">
+            Всегда будьте в курсе последних новостей!
+          </h5>
+          <p class="pending__text">
+            Установите мобильное приложение NAMANGANLIKLAR24 и все новости в
+            вашем кармане!
+          </p>
+        </div>
+        <img
+          style="margin-left: 10px"
+          src="./images/pending1.png"
+          alt="pic"
+          width="163"
+          height="50"
+          class="pending__pic"
+        />
+        <img
+          style="margin-left: -15px"
+          src="./images/pending2.png"
+          alt="pic"
+          width="164"
+          height="50"
+          class="pending__pic"
+        />
+      </div>
+
+      <!-- end of pending -->
+    </div>
+
+    <!-- end of container -->
+
+    <footer class="footer container">
+      <div class="footer__wrapp">
+        <div class="footer__top">
+          <div width="194" height="38" class="footer__logo">
+            NAMANGANLIKLAR24
+          </div>
+          <p class="footer__top--text">
+            Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых
+            последних новостей:
+          </p>
+          <button
+            style="
+              border: none;
+              color: rgba(41, 80, 147, 1);
+              background-color: #fff;
+            "
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            <img
+              src="./images/tgFooter.svg"
+              alt="img"
+              width="20"
+              height="20"
+              class="header__btn--img"
+            />
+            Подписатся
+          </button>
+        </div>
+
+        <!-- end of footer__top -->
+
+        <hr class="footer__hr" />
+
+        <div class="footer__bottom">
+          <div class="footer__pending">
+            <h5 class="footer__pending--head">О сайте</h5>
+            <p class="footer__pending--text">
+              Воспроизводство, копирование, тиражирование, распростране ние и
+              иное использование информации с сайта «NAMANGANLIKLAR24.UZ»
+              возможно только с предварительного письменного разрешения
+              редакции.
+            </p>
+          </div>
+          <div class="footer__wrapper">
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Информация о сайте</a
+            >
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Напишите нам</a
+            >
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Реклама
+            </a>
+            <br />
+            <a
+              class="footer__wrapper--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Прислать новость</a
+            >
+            <br />
+          </div>
+          <div class="footer__content">
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Использование материалов
+            </a>
+            <br />
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Темы дня</a
+            >
+            <br />
+            <a
+              class="footer__content--link"
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Наша команда
+            </a>
+            <br />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end of footer -->
+
+    <!-- JS -->
+
+    <!-- offline -->
+    <script src="./js/information.js"></script>
+    <script src="./script.js"></script>
+
+    <!-- online -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

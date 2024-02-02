@@ -1,0 +1,115 @@
+.footer {
+  width: 1440px;
+  background-color: rgba(41, 80, 147, 1);
+
+  &__wrapp {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  &__logo {
+    padding: 10px;
+    padding-top: 18px;
+    border-radius: 5px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(19, 60, 130, 1);
+  }
+
+  &__top--text {
+    margin-left: 150px;
+    width: 659px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 15px;
+  }
+
+  &__hr {
+    width: 1200px;
+    background-color: rgba(19, 60, 130, 1);
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    width: 1200px;
+    display: flex;
+  }
+
+  &__pending {
+    &--head {
+      font-family: Rubik;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &--text {
+      width: 365px;
+      font-family: Rubik;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  &__wrapper {
+    margin-left: 100px;
+    display: block;
+    &--link {
+      width: 163px;
+      text-decoration: none;
+      font-family: Rubik;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &--link:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__content {
+    margin-left: 120px;
+    &--link {
+      width: 225px;
+      font-family: Rubik;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 17px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    &--link:hover {
+      text-decoration: none;
+    }
+  }
+}
